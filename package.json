@@ -1,0 +1,23 @@
+{
+  "name": "pack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pack": "webpack --config webpack.config.js",
+    "serve": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "css-loader": "^4.0.0",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+
+  }
+}
